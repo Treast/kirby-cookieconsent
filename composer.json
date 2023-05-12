@@ -1,0 +1,40 @@
+{
+  "name": "treast/kirby-cookieconsent",
+  "description": "A cookie consent plugin for KirbyCMS",
+  "type": "kirby-plugin",
+  "version": "0.1.0",
+  "keywords": [
+    "kirby",
+    "kirbycms",
+    "cookie",
+    "cookieconsent",
+    "rgpd"
+  ],
+  "homepage": "https://github.com/Treast/kirby-cookieconsent",
+  "support": {
+    "issues": "https://github.com/Treast/kirby-cookieconsent/issues",
+    "source": "https://github.com/Treast/kirby-cookieconsent"
+  },
+  "autoload": {
+    "psr-4": {
+      "Treast\\KirbyCookieconsent\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Vincent Riva",
+      "email": "vincent.riva@outlook.fr",
+      "homepage": "https://www.vincentriva.fr",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "getkirby/composer-installer": "*"
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "allow-plugins": {
+      "getkirby/composer-installer": true
+    }
+  }
+}
