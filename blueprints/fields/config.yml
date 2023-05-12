@@ -1,0 +1,21 @@
+fields:
+  theme:
+    label: Theme
+    type: toggle
+    text:
+      - 'Light theme'
+      - 'Dark theme'
+  force_consent:
+    label: Force consent ?
+    type: toggle
+    default: true
+    text:
+      - 'No'
+      - 'Yes'
+  auto_language:
+    label: Auto Language ?
+    type: toggle
+    default: true
+    text:
+      - 'No'
+      - 'Yes'

@@ -1,0 +1,35 @@
+fields:
+  settings_headline:
+    label: Settings modal UI
+    type: headline
+    numbered: false
+  settings_layout:
+    label: Layout
+    type: toggles
+    default: cloud
+    width: 1/2
+    options:
+      - value: bar
+        text: Bar
+      - value: box
+        text: Box
+  settings_transition:
+    label: Transition
+    type: toggles
+    default: slide
+    width: 1/2
+    options:
+      - value: slide
+        text: Slide
+      - value: zoom
+        text: Zoom
+  settings_position_x:
+    label: Position-X
+    type: toggles
+    default: bottom
+    width: 1/2
+    options:
+      - value: left
+        text: Left
+      - value: right
+        text: Right

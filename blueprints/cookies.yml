@@ -1,0 +1,23 @@
+label: Cookies
+icon: ticket
+
+columns:
+  general:
+    width: 2/3
+    sections:
+      cookies:
+        type: fields
+        extends: fields/cookies/cookies
+      consent:
+        type: fields
+        extends: fields/cookies/consent
+      settings:
+        type: fields
+        extends: fields/cookies/settings
+
+  config:
+    width: 1/3
+    sections:
+      config:
+        type: fields
+        extends: fields/cookies/config
